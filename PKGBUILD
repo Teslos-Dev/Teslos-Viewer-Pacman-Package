@@ -1,6 +1,6 @@
 # Maintainer: Triplehx3 <ginge264@gmail.com>
 
-pkgname=teslosviewer
+pkgname=TeslosViewer
 pkgver=1.0.0.10
 _pkgver=1_0_0_10
 pkgrel=1
@@ -18,12 +18,12 @@ optdepends=('libpulse: for PulseAudio support'
 	'pangox-compat: for media_plugin_webkit to work'
 	'lib32-alsa-plugins: for voice')
 
-source=("https://github.com/Teslos-Dev/Teslos-Viewer/releases/download/sv-${pkgver}-release/Teslos_${_pkgver}_x86_64.tar.xz"
+source=("https://github.com/Teslos-Dev/Teslos-Viewer/releases/download/tv-${pkgver}/Teslos_${_pkgver}_x86_64.tar.xz"
 	"teslosviewer.desktop"
 	"teslosviewer.launcher")
-md5sums=('eca5a9bd54c43662297f10f7f8ad9476'
-         '3b6c5641f35a099af35ff4065733049f'
-         'eb596f5cf7b6f2d0c55c0082fb99a905')
+md5sums=('2c6c188f852934f1aee65f51a20ecd33'
+         '3317de28c6a3a21f332a3bcd96b3b9b5'
+         '78235f9b14d682a1b7c02c374cf98d45')
 
 package() {
 cd $srcdir
