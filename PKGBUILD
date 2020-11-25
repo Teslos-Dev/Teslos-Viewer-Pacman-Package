@@ -52,7 +52,7 @@ install -D -m644 $srcdir/teslosviewer/viewer_icon.png \
   
 # Install Launcher
 install -D -m755 $srcdir/teslosviewer.launcher \
-    $pkgdir/usr/bin/teslosviewer
+    $pkgdir/usr/bin/teslos
 
 # Install License file
 install -D -m755 $srcdir/teslosviewer/licenses.txt \
